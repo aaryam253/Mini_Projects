@@ -12,5 +12,5 @@ A collation of python scripts employing the LightFM model that trains a set of d
 
 ### TO-DO
 - [x] [Catalant Technologies](https://medium.com/product-at-catalant-technologies/using-lightfm-to-recommend-projects-to-consultants-44084df7321c) use case
-- [ ] SketchFab LightFM use case
+- [x] SketchFab LightFM use case
 - [ ] Business recommendation system use case
