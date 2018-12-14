@@ -19,14 +19,14 @@ A collation of python scripts employing the LightFM model that trains a set of d
 A short self-initiated project that explores sentiment analysis on twitter tweets by first exploring the work done by researchers and then applying those concepts to determine the twitter response to the recently released Iphones. 
 
 ### Tutorials that explore sentiment analysis - courtesy of the blog posts by [The Rickest Ricky](https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90)
-- [ ] Data Cleaning
+- [x] Data Cleaning
 - [ ] EDA, Data Visualisation
 - [ ] Zipf's Law, Data Visualisation
 - [ ] Feature extraction, N-gram, confusion matrix
 - [ ] Model comparison
 
 ### Translating tutorial knowledge to own use case
-Using the tips from the aforementioned tutorials, a new use case is formed and tested, namely how well did the new Iphones fare as per tweets from Twitter? Of course, the purpose this investigation is an initial exploration in data science and statistical models, rather than providing a definitve or accurate answer to the use case itself.
+Using the tips from the aforementioned tutorials, a new use case is formed and tested, namely how well did the new IPhone models (XS, XS Max, XR) fare as per tweets from Twitter? Of course, the purpose this investigation is an initial exploration in data science and statistical models, rather than providing a definitve or accurate answer to the use case itself.
 
 ### TO-DO for Twitter use case
 
