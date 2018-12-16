@@ -20,7 +20,7 @@ A short self-initiated project that explores sentiment analysis on twitter tweet
 
 ### Tutorials that explore sentiment analysis - courtesy of the blog posts by [The Rickest Ricky](https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90)
 - [x] Data Cleaning
-- [x] EDA, Data Visualisation
+- [x] EDA, Data Visualisation (World clouds)
 - [ ] Zipf's Law, Data Visualisation
 - [ ] Feature extraction, N-gram, confusion matrix
 - [ ] Model comparison
