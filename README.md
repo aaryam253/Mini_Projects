@@ -21,16 +21,15 @@ A short self-initiated project that explores sentiment analysis on twitter tweet
 ### Tutorials that explore sentiment analysis - courtesy of the blog posts by [The Rickest Ricky](https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90)
 - [x] Data Cleaning
 - [x] EDA, Data Visualisation (World clouds)
-- [ ] Zipf's Law, Data Visualisation
-- [ ] Feature extraction, N-gram, confusion matrix
-- [ ] Model comparison
+- [x] Zipf's Law, Data Visualisation
+- [x] Feature extraction, N-gram, confusion matrix
+- [x] Model comparison
 
 ### Translating tutorial knowledge to own use case
 Using the tips from the aforementioned tutorials, a new use case is formed and tested, namely how well did the new IPhone models (XS, XS Max, XR) fare as per tweets from Twitter? Of course, the purpose this investigation is an initial exploration in data science and statistical models, rather than providing a definitve or accurate answer to the use case itself.
 
-### TO-DO for Twitter use case
-
 ### Expected Challenges and Results
+- Sentiment analysis is difficult to extract simply based on individual words, e.g. words may be used in a sarcastic tone, thereby making it difficult to differentiate between positive and negative test units
 
 ### Actual outcomes
 
