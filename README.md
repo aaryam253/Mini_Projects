@@ -30,7 +30,3 @@ Using the tips from the aforementioned tutorials, a new use case is formed and t
 
 ### Expected Challenges and Results
 - Sentiment analysis is difficult to extract simply based on individual words, e.g. words may be used in a sarcastic tone, thereby making it difficult to differentiate between positive and negative test units
-
-### Actual outcomes
-
-### Conclusion
