@@ -6,7 +6,7 @@ A collation of python scripts employing the LightFM model that trains a set of d
 2. Learning Schedules (adagrad and adadelta)
 3. Implicit Feedback Recommender
 4. Stackexchange recommendation
-5. Learning rate schedules (BPR and WARP)
+5. Learning rate schedules
 6. Rank using WARP
 7. Building datasets
 
