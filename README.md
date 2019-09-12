@@ -1,2 +1,2 @@
 ### Project #1 : LightFM Recommendation Systems
-### Project #2: Word sense disambiguation using Viterbi algorithm
+### Project #2: Django Project - Online Marketplace
