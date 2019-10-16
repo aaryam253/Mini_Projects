@@ -1,4 +1,3 @@
-import pandas as pd
 '''
 # Fizz Buzz
 for num in range(1, 101):
@@ -44,7 +43,7 @@ def fib(num):
 for item in fib(10):
 	print(item)
 
-class Person(self):
+class Person:
 	def __init__(self, name):
 		self.name = name
 
