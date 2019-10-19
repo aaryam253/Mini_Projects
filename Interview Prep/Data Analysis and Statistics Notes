@@ -50,5 +50,69 @@ Statistics
     - t = (mean - sample mean) / (standard deviation) / sqrt(sample size)
     - For 2-Sample Test, find out the ratio between the difference of the two samples to the null hypothesis
     
+    - 1-Sample T-Test: determines how a sample set holds against a mean
+    - 2-Sample T-Test: determines if the mean between 2 sample sets is really significant for the entire population or purely by chance
     
+- T-test: used when the standard deviation is unknown and the sample size is comparatively small
+- Chi-Square Test for Independence: used to find out the significance of the association between the categorical variables in the population sample
+- Analysis of Variance (ANOVA): used to analyze differences between the means in various groups. Test is often used similarly to a T-test but, is used for more than two groups. 
+- Welch's T-test: test for equality of means between two population samples
     
+- Variance: how apart numbers are in relation to the mean
+- Covariance: refers to how two random variables will change together
+
+Most common data analytics tool in the market: Statistical Analysis System (SAS)
+- Interleaving in SAS: combining individual sorted SAS data sets into one sorted data set
+
+- Long and wide format data
+    - Wide format: repeated responses will be in a single row, and each response is in a separate column
+    - Long format: one-time point per subject
+    
+
+SQL and DBMS
+- ACID Property
+    - Atomicity: transactions which are either completely successful or failed (transaction is a single operation)
+    - Consistency: data must meet all the validation rules
+    - Isolation: transactions separated from each other until they're finished (all transactions are independent)
+    - Durability: committed transaction is never lost, guarantees the database will keep track of pending changes in such a way that even if there is a power loss, crash or any sort of error the server can recover from an abnormal termination.
+- Normalization
+    - Organizing data to avoid duplication and redundancy
+    - Successive levels of normalization: normal forms
+        - First Normal Form (1NF) - no repeating groups within rows
+        - Second Normal Form (2NF) - every non-key (supporting) column value is dependent on the whole primary key
+        - Third Normal Form (3NF) - dependent solely on the primary key and no other non-key column value
+        - Boyce - Codd Normal Form (BCNF)
+            - Advanced version of 3NF. Table is said to be in BCNF if it is 3NF and for every X->Y, relation X should be the super key of the table
+
+
+Data Analysis and Machine Learning 
+- Overfitting
+    - Random error or noise instead of the underlying relationship
+    - Occurs when a model is excessively complex, such as having too many parameters relative to the number of observations
+    - Model has poor predictive performance, as it overreacts to minor fluctuations in the training data
+    
+- Underfitting
+    - When model cannot capture the underlying trend of the data
+    - E.g. when fitting a linear model to non-linear data
+    - Model would have poor predictive performance as well
+
+- Cluster Sampling
+    - Probability sample where each sampling unit is a collection or cluster of elements
+
+- Systematic Sampling
+    - Elements are selected from an ordered sampling frame
+    - List is progressed in a circular manner
+
+- Validation Set
+    - Part of the training set and used for parameter selection and to avoid overfitting of the model being built
+- Test Set
+    - Used for testing or evaluating the performance of a trained machine learning model
+- Cross Validation
+    - Evaluating how the outcomes of statistical analysis will generaliza to an independent dataset
+    - Object is forecast and one wants to estimate how accurately a model will accomplish in practice
+    - Term a data set to test the model in the training phase in order to limit problems like overfitting and get an insight on how the model will generalize to an independent data set. 
+
+
+
+
+
