@@ -73,9 +73,3 @@ print(np.sum((a,a2), ax))
 l1 = [1,2,3,4,5]
 data1 = pd.DataFrame(l1)
 print(data1)
-
-
-
-
-
-
