@@ -1,0 +1,54 @@
+KNN imputation method
+- Impute the missing attribute values which are imputed by the attribute values that are most similar to the attribute whose values are missing.
+- Similarity of two attributes is determined by using the distance functions. 
+
+
+Hadoop
+- Developed for processing large dataset for an application in a distributed computing environment
+- Consists of the following components:
+    - HDFS (Hadoop Distributed File System)
+    - YARN (Yet Another Resource Negotiator)
+    - MapReduce (Data procfessing using programming)
+    - Spark (In-memory Data Processing)
+    - PIG, HIVE (Data Processing Services using Query (SQL-Like)
+    - HBase (NoSQL Database)
+    - Mahout, Spark MLlib (Maching Learning)
+    - Apache Drill (SQL on Hadoop)
+    - Zookeeper (Managing Cluster)
+    - Oozie (Job Scheduling)
+    - Flume, Sqoop (Data Ingesting Services)
+    - Solr & Lucene (Searching & Indexing)
+    - Ambari (Provision, Monitor, and Maintain cluster)
+    
+    
+Statistics
+- Normal Distribution
+    - Bell Curve or Gaussian Curve --> measure how much values can differ in their means and their standard deviations.
+    - Data usually distributed around a central value without any vias to the left or right side
+    - Random values are distributed in the form of a symmetricl bell-shaped curve
+
+- A/B Testing
+    - Statistical hypothesis testing for a randomized experiment with two variables A and B
+    - Analytical method that estimates population parameters based on sample statistics
+    - Test compares two web pages by showing two variants A and B, to a similar number of visitors, and the variant which gives better conversion rate wins
+    
+    - Sensitivity = (True Positives) / (Positives in Actual Dependent Variable)
+
+- Null Hypothesis: Test for possible rejection under the assumption that result of chance would be true
+- Alternative Hypothesis: Hypotheses contrary to the Null Hypothesis
+
+- Univariate analysis: statistical technique that can be differentiated based on the count of variables involved at a given instance of time
+- Bivariate analysis: Find the difference between two variables at a time
+- Multivariate analysis: study of more than two variables
+
+- Eigenvectors: used to understand linear transformations. Calculated for a correlation or a covariance matrix.
+    - Directions along which a specific linear transformation acts either by flipping, compresisng or stretching.
+    
+- Eigenvalue: Strength of the transformation or the factor by which the compression occurs in the direction of eigenvectors.
+
+- T-Tests: type of hypothesis tests by which you can compare means.
+    - t = (mean - sample mean) / (standard deviation) / sqrt(sample size)
+    - For 2-Sample Test, find out the ratio between the difference of the two samples to the null hypothesis
+    
+    
+    
