@@ -111,8 +111,3 @@ Data Analysis and Machine Learning
     - Evaluating how the outcomes of statistical analysis will generaliza to an independent dataset
     - Object is forecast and one wants to estimate how accurately a model will accomplish in practice
     - Term a data set to test the model in the training phase in order to limit problems like overfitting and get an insight on how the model will generalize to an independent data set. 
-
-
-
-
-
