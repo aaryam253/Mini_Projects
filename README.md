@@ -1,2 +1,8 @@
-### Project #1 : LightFM Recommendation Systems
-### Project #2: Django Project - Online Marketplace
+### Python projects consist of:
+#### - Games built using Pygame
+#### - Websites using Django
+#### - Data analysis and a beginner's shot at statistical ML
+
+
+### React project consists of: #2:
+#### - Pathfinding project
