@@ -4,5 +4,5 @@
 #### - Data analysis and a beginner's shot at statistical ML
 
 
-### React project consists of: #2:
+### React project consists of:
 #### - Pathfinding project
