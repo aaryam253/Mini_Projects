@@ -1,8 +1,4 @@
-### Python projects consist of:
-#### - Games built using Pygame
-#### - Websites using Django
-#### - Data analysis and a beginner's shot at statistical ML
-
-
-### React project consists of:
-#### - Pathfinding project
+### Projects enlisted within the repo:
+##### 1) Pong Game built using PyGame 
+##### 2) Data analysis and statistical ML project
+##### 3) Light FM experimentation
