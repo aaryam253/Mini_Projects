@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 2555, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 2555, 255, .3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("Images/header-background.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-family: "Rock Salt";
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 7em;
+}
+
+.band-name-small {
+    font-size: 3em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Annie Use Your Telescope";
+    font-weight: normal;
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgba(25, 181, 254, .7);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
