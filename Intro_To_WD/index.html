@@ -3,109 +3,93 @@
   <head>
     <title>Ed Sheeran - Man, Myth, Legend</title>
     <meta name="description" content="A tribute to Ed Sheeran's many hits" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="store.html">STORE</a></li>
           <li><a href="about.html">ABOUT</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>Ed Sheeran</h1>
-      <button type="button">View the making of Shape Of You!</button>
-      <br />
-      <br />
-      <!-- TODO: Add a background image here -->
-      <button type="button">&#9658;</button>
+      <h1 class="band-name band-name-large">Ed Sheeran</h1>
+      <div class="container">
+        <button class="btn btn-header" type="button">
+          View the making of Shape Of You!
+        </button>
+      </div>
+      <button class="btn btn-header btn-play" type="button">&#9658;</button>
     </header>
-    <section>
-      <h2>BIGGEST HITS</h2>
+    <section class="content-section container">
+      <h2 class="section-header">BIGGEST HITS</h2>
       <div>
-        <div>
-          <strong>Shape Of You</strong>
-          &lt;&gt;
-          <span>Peaked at #1</span>
-          &lt;&gt;
-          <span>28th Jan 2017</span>
-          &lt;&gt;
-          <button type="button">Watch on YouTube</button>
-          <hr />
+        <div class="song-row">
+          <span class="song-item song-name">Shape Of You</span>
+          <span class="song-item song-peak">Peaked at #1</span>
+          <span class="song-item song-date">28th Jan 2017</span>
+          <button class="btn song-item song-btn btn-primary" type="button">
+            Watch on YouTube
+          </button>
         </div>
-        <div>
-          <strong>Shape Of You</strong>
-          &lt;&gt;
-          <span>Peaked at #1</span>
-          &lt;&gt;
-          <span>28th Jan 2017</span>
-          &lt;&gt;
-          <button type="button">Watch on YouTube</button>
-          <hr />
+        <div class="song-row">
+          <span class="song-item song-name">Thinking Out Loud</span>
+          <span class="song-item song-peak">Peaked at #2</span>
+          <span class="song-item song-date">31st Jan 2015</span>
+          <button class="btn song-item song-btn btn-primary" type="button">
+            Watch on YouTube
+          </button>
         </div>
-        <div>
-          <strong>Thinking Out Loud</strong>
-          &lt;&gt;
-          <span>Peaked at #2</span>
-          &lt;&gt;
-          <span>31st Jan 2015</span>
-          &lt;&gt;
-          <button type="button">Watch on YouTube</button>
-          <hr />
+        <div class="song-row">
+          <span class="song-item song-name">Perfect</span>
+          <span class="song-item song-peak">Peaked at #1</span>
+          <span class="song-item song-date">23rd Dec 2017</span>
+          <button class="btn song-item song-btn btn-primary" type="button">
+            Watch on YouTube
+          </button>
         </div>
-        <div>
-          <strong>Perfect</strong>
-          &lt;&gt;
-          <span>Peaked at #1</span>
-          &lt;&gt;
-          <span>23rd Dec 2017</span>
-          &lt;&gt;
-          <button type="button">Watch on YouTube</button>
-          <hr />
+        <div class="song-row">
+          <span class="song-item song-name">I Don't Care</span>
+          <span class="song-item song-peak">Peaked at #2</span>
+          <span class="song-item song-date">25th May 2019</span>
+          <button class="btn song-item song-btn btn-primary" type="button">
+            Watch on YouTube
+          </button>
         </div>
-        <div>
-          <strong>I Don't Care</strong>
-          &lt;&gt;
-          <span>Peaked at #2</span>
-          &lt;&gt;
-          <span>25th May 2019</span>
-          &lt;&gt;
-          <button type="button">Watch on YouTube</button>
-          <hr />
-        </div>
-        <div>
-          <strong>Don't</strong>
-          &lt;&gt;
-          <span>Peaked at #9</span>
-          &lt;&gt;
-          <span>15th Nov 2014</span>
-          &lt;&gt;
-          <button type="button">Watch on YouTube</button>
+        <div class="song-row">
+          <span class="song-item song-name">Don't</span>
+          <span class="song-item song-peak">Peaked at #9</span>
+          <span class="song-item song-date">15th Nov 2014</span>
+          <button class="btn song-item song-btn btn-primary" type="button">
+            Watch on YouTube
+          </button>
         </div>
       </div>
     </section>
-    <footer>
-      <h3>Ed Sheeran</h3>
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/user/EdSheeran" target="_blank"
-            ><img src="Images/youtube.png" width="2%"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/teddysphotos/" target="_blank"
-            ><img src="Images/instagram.png" width="2%"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
-            target="_blank"
-            ><img src="Images/spotify.png" width="2%"
-          /></a>
-        </li>
-      </ul>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name band-name-small">Ed Sheeran</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com/user/EdSheeran" target="_blank"
+              ><img src="Images/youtube.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/teddysphotos/" target="_blank"
+              ><img src="Images/instagram.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
+              target="_blank"
+              ><img src="Images/spotify.png" width="2%"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
