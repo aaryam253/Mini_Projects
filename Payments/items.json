@@ -1,0 +1,42 @@
+{
+    "music": [
+        {
+            "id": 1,
+            "name": "Plus",
+            "price": 2500,
+            "imgName": "plus.png"
+        },
+        {
+            "id": 2,
+            "name": "Times",
+            "price": 2200,
+            "imgName": "times.png"
+        },
+        {
+            "id": 3,
+            "name": "Divide",
+            "price": 4500,
+            "imgName": "divide.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "No_6",
+            "price": 1200,
+            "imgName": "no_six.png"
+        }
+    ],
+    "merch": [
+        {
+            "id": 5,
+            "name": "T-Shirt (Divide)",
+            "price": 5000,
+            "imgName": "divide_t_shirt.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Phone Case (Divide)",
+            "price": 1200,
+            "imgName": "divide_phone_case.jpeg"
+        }
+    ]
+}
